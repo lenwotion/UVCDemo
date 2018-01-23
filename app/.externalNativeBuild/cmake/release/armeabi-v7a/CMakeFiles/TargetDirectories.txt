@@ -1,0 +1,8 @@
+E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/usb100.dir
+E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/uvc.dir
+E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/UVCCamera.dir
+E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/libjpeg-turbo-1.5.0/CMakeFiles/edit_cache.dir
+E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/libjpeg-turbo-1.5.0/CMakeFiles/jpeg-turbo1500.dir
+E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a/src/main/cpp/libjpeg-turbo-1.5.0/CMakeFiles/rebuild_cache.dir

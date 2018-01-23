@@ -1,0 +1,547 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/git_work/UVCDemo/app/CMakeLists.txt",
+		"E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"E:\\Android\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\git_work\\UVCDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"UVCCamera-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "UVCCamera",
+			"buildCommand" : "E:\\Android\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\git_work\\UVCDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target UVCCamera",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot  -DUVCCamera_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -mfloat-abi=softfp -mfpu=neon -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/UVCCamera/_onload.cpp",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot  -DUVCCamera_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -mfloat-abi=softfp -mfpu=neon -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/UVCCamera/utilbase.cpp",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot  -DUVCCamera_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -mfloat-abi=softfp -mfpu=neon -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/UVCCamera/UVCCamera.cpp",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot  -DUVCCamera_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -mfloat-abi=softfp -mfpu=neon -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/UVCCamera/UVCPreview.cpp",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot  -DUVCCamera_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -mfloat-abi=softfp -mfpu=neon -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/UVCCamera/UVCButtonCallback.cpp",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot  -DUVCCamera_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -mfloat-abi=softfp -mfpu=neon -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/UVCCamera/UVCStatusCallback.cpp",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot  -DUVCCamera_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -mfloat-abi=softfp -mfpu=neon -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/UVCCamera/Parameters.cpp",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot  -DUVCCamera_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Android\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -mfloat-abi=softfp -mfpu=neon -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/UVCCamera/serenegiant_usb_UVCCamera.cpp",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/git_work/UVCDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libUVCCamera.so",
+			"toolchain" : "3731731101"
+		},
+		"jpeg-turbo1500-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "jpeg-turbo1500",
+			"buildCommand" : "E:\\Android\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\git_work\\UVCDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target jpeg-turbo1500",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcapimin.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcapistd.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jccoefct.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jccolor.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcdctmgr.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jchuff.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcinit.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcmainct.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcmarker.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcmaster.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcomapi.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcparam.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcphuff.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcprepct.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcsample.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jctrans.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdapimin.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdapistd.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdatadst.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdatasrc.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdcoefct.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdcolor.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jddctmgr.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdhuff.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdinput.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdmainct.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdmarker.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdmaster.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdmerge.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdphuff.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdpostct.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdsample.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdtrans.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jerror.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jfdctflt.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jfdctfst.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jfdctint.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jidctflt.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jidctfst.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jidctint.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jidctred.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jquant1.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jquant2.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jutils.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jmemmgr.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jmemnobs.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jaricom.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jcarith.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdarith.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/turbojpeg.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/transupp.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdatadst-tj.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/jdatasrc-tj.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Djpeg_turbo1500_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\smid -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\.  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DSIZEOF_SIZE_T=4 -DELF -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libjpeg-turbo-1.5.0/simd/jsimd_arm.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/git_work/UVCDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libjpeg-turbo1500.so",
+			"toolchain" : "3731731101"
+		},
+		"usb100-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "usb100",
+			"buildCommand" : "E:\\Android\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\git_work\\UVCDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target usb100",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/core.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/descriptor.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/hotplug.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/io.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/sync.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/strerror.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/os/android_usbfs.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/os/poll_posix.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/os/threads_posix.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Dusb100_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libusb/libusb/os/android_netlink.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/git_work/UVCDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libusb100.so",
+			"toolchain" : "3731731101"
+		},
+		"uvc-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "uvc",
+			"buildCommand" : "E:\\Android\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\git_work\\UVCDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target uvc",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Duvc_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libuvc/src/ctrl.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Duvc_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libuvc/src/device.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Duvc_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libuvc/src/diag.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Duvc_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libuvc/src/frame.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Duvc_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libuvc/src/frame-mjpeg.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Duvc_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libuvc/src/init.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/ndk-bundle/sysroot -Duvc_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\libusb\\os -I..\\..\\..\\..\\src\\main\\cpp\\libusb\\android -I..\\..\\..\\..\\src\\main\\cpp\\libusb -I..\\..\\..\\..\\src\\main\\cpp -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include -I..\\..\\..\\..\\src\\main\\cpp\\libuvc\\include\\libuvc -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0 -I..\\..\\..\\..\\src\\main\\cpp\\libjpeg-turbo-1.5.0\\include -I..\\..\\..\\..\\src\\main\\cpp\\UVCCamera -I..\\..\\..\\..\\src\\main\\cpp\\rapidjson\\include  -isystem E:/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -DUVC_DEBUGGING -DACCESS_RAW_DESCRIPTORS -fstrict-aliasing -fprefetch-loop-arrays -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/git_work/UVCDemo/app/src/main/cpp/libuvc/src/stream.c",
+					"workingDirectory" : "E:/git_work/UVCDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "E:/git_work/UVCDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libuvc.so",
+			"toolchain" : "3731731101"
+		}
+	},
+	"toolchains" : 
+	{
+		"3731731101" : 
+		{
+			"cCompilerExecutable" : "E:/Android/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/Android/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\git_work\UVCDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1bc6be95ff1f78e38edb8521769e4f0e76e21710">
+        <dex dex="E:\git_work\UVCDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5aed2954cb3595ed93ab3d5a8cd47e26494bb362\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\git_work\UVCDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\git_work\UVCDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5bec99ca33a1e5f9df3812e20476aa4577e9bf24\classes.dex" />
+    </item>
+
+</items>
